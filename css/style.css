@@ -1,0 +1,167 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+html {
+
+  font-size: 2rem;
+  background-image: url(././images/ben-neale-sQQf8Ao3dpk-unsplash.jpg);
+  background-size: cover;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+select {
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.note {
+  font-size: 0.5rem;
+}
+
+/* In case I choose to add tab, modify this
+/* .tab {
+  display: flex;
+  justify-content: center;
+}
+
+.tablinks {
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #348efe;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 0;
+  transition: background-color 200ms ease-in-out;
+
+}
+
+.tablinks:hover {
+  background-color: #e1f1ff;
+}
+
+.tablinks.is-featured {
+  background-color: #48aaff;
+  color: white;
+}
+
+.tablinks.is-featured:hover {
+  background-color: #269aff;
+  color: white;
+} */
+
+.section-container {
+  background-color: rgb(45, 189, 174);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* align-items: center; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  padding: 0 4vw;
+  border-radius: 1rem;
+  margin: 0 4rem;
+}
+
+.column {
+  flex: 1;
+
+
+}
+
+img {
+  width: 18rem;
+  height: 18rem;
+  border: 1px solid #9dd1ff;
+  border-radius: 10%;
+}
+
+span {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+
+#character-name {
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+#left-column {
+  text-align: center;
+  padding-right: 1rem;
+}
+
+#characteristics {
+  text-align: center;
+
+}
+
+.character {
+  border: 1px solid #9dd1ff;
+  border-radius: 0.7rem;
+  color: rgb(45, 189, 174);
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  transition: background-color 200ms ease-in-out;
+}
+
+ul {
+  list-style: none;
+  line-height: 1.5;
+
+}
+
+
+
+footer {
+  font-size: 0.4rem;
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
