@@ -101,6 +101,7 @@ h3 {
   padding: 0 4vw;
   border-radius: 1rem;
   margin: 0 4rem;
+
 }
 
 .column {
@@ -126,6 +127,7 @@ span {
   font-size: 1rem;
   text-decoration: none;
   text-align: center;
+  margin: none;
 }
 
 #left-column {
@@ -158,10 +160,53 @@ ul {
 
 
 footer {
-  font-size: 0.4rem;
+  font-size: 0.6rem;
   text-align: center;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media (max-width: 900px) {
+
+  h1,
+  .section-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-container {
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+  }
+
+  .secondColumn {
+    border-top: 1px solid white;
+  }
+
+  .firstColumn {
+    margin-bottom: 20px;
+  }
+
+  .character {
+    border: 1px solid #9dd1ff;
+    border-radius: 0.7rem;
+    color: rgb(45, 189, 174);
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: background-color 200ms ease-in-out;
+  }
+
+  img {
+    width: 12rem;
+    height: 12rem;
+    border: 1px solid #9dd1ff;
+    border-radius: 10%;
+
+  }
+
+}
