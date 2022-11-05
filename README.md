@@ -1,4 +1,4 @@
-# Doggos-and-Puppers: <a href="https://codepen.io/julia-codes/pen/zYWodgZ" target="_blank">Check It Out</a>
+# Doggos-and-Puppers: <a href="https://doggos-and-puppers.netlify.app/" target="_blank">Check It Out</a>
 
 <a href="https://codepen.io/julia-codes/pen/zYWodgZ" target="_blank"><img src="https://github.com/OrnellaTchinda/Doggos-and-Puppers/blob/8f77f20639663575dedec242370993d019fb221c/css/images/doggosAndPuppers.gif" /></a>
 
